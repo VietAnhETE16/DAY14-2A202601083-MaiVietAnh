@@ -1,0 +1,13 @@
+[project]
+name = "my-project"
+version = "0.1.0"
+description = "Dự án Python sử dụng uv"
+dependencies = [
+    "openai>=1.66.0,<3.0.0",
+    "python-dotenv>=1.0.0,<2.0.0",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0.0,<10.0.0",
+]
